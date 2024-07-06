@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("bg.jpg");
+
+    height: 76vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    height: 76vh;
+    width: 100%;
+    opacity: 0.54;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    /* background-color: blue; */
+    max-width: 150vh;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 200px;
+    position: relative;
+    z-index: 10;
+    /* margin-right: 300px; */
+    /* margin-left: 180px; */
+    margin-top: 30px;
+}
+
+nav button {
+    background-color: red;
+    color: rgba(255, 255, 255, 0.7);
+    height: 32px;
+    width: 77px;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+nav button:hover {
+    opacity: 0.9;
+}
+
+nav select {
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    height: 35px;
+    width: 85px;
+    background-color: rgb(44, 39, 30);
+    color: beige;
+    border: none;
+    border-radius: 2px;
+    margin-right: 20px;
+    opacity: 0.8;
+}
+
+nav select:hover {
+    border: 1px solid white;
+    border-color: aliceblue;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+
+    height: calc(100% - 62px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: aliceblue;
+    flex-direction: column;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero input {
+    height: 45px;
+    width: 300px;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(39, 39, 66);
+    opacity: 0.5;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    ;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.hero button {
+    margin-top: 11px;
+    margin-left: 15px;
+    height: 45px;
+    width: 120px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.hero button:hover {
+    opacity: 0.9;
+}
+
+
+.separation {
+    height: 5px;
+    background-color: gray;
+}
+
+.first {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    max-width: 150vw;
+    margin: auto;
+    color: white;
+    flex-wrap: wrap;
+    padding: 17px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+}
+
+/* .secImg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;
+    height: 191px;
+    top: 75px;
+    right: 71px;
+
+} */
+
+.secImg img{
+    width: 392px;
+    position: relative;
+    z-index: 10;
+
+}
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 42px;
+    width: 298px;
+}
+.first > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.first > div :nth-child(1){
+    font-size: 35px ;
+    font-weight: bolder;
+}
+.first > div :nth-child(2){
+    font-size: 20px ;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+
+    
+}
+.faqpair{
+   
+    /* height: 20px; */
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    padding: 24px;
+    max-width: 40vw;
+    margin: 8px auto;
+    justify-content: space-between;
+
+}
+
+.faqpair:hover{
+    background-color: rgb(102, 95, 95);
+}
+
+
+
+.faqtext{
+    font-size:1.6rem;
+    font-weight: 500;
+    color:white;
+    display:flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px ;
+}
+footer span{
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 24px;
+}
+.footer-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+footer a{
+    font-size: 14px;
+    color: white;
+} */
+ .footer-panel1{
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ ul a {
+    display: block;
+    color: #dddddd;
+    margin-top: 13px;
+    font-size: 0.85rem;
+}
+ul p{
+
+}
+
+.questions{
+    margin-top: ;
+    color: white;
+    max-width: 584px;
+    padding: 14px 0px;
+}
+footer p{
+    display: flex;
+    justify-content: space-around;
+}
+.email{
+    height: 193px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+    text-align: center;
+}
+.email input{
+    height: 45px;
+    width: 300px;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(39, 39, 66);
+    opacity: 0.5;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    font-size: 17px;
+}
+.email button {
+    margin-top: 11px;
+    margin-left: 15px;
+    height: 45px;
+    width: 120px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.email button:hover {
+    opacity: 0.9;
+}
+
+.language{
+    margin-top: -41px;
+    height: 33px;
+    align-items: center;
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+.language select{
+    
+        cursor: pointer;
+        position: relative;
+        z-index: 10;
+        height: 35px;
+        width: 85px;
+        background-color: rgb(44, 39, 30);
+        color: beige;
+        border: none;
+        border-radius: 2px;
+        margin-right: 20px;
+        opacity: 0.8;
+    }
+    
+    .language select:hover {
+        border: 1px solid white;
+        border-color: aliceblue;
+    }   
+.language a{
+    color: white;
+    cursor: pointer;
+}
